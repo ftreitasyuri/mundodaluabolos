@@ -1,0 +1,42 @@
+#destaque {
+    /* border: solid 2px green; */
+    /* background-color: rgba(161, 253, 222, 0.904); */
+
+    height: 300px;
+
+    display: grid;
+
+    grid-template-areas:
+    'parte1 parte2 parte3';
+
+    gap: 5px;
+    
+ 
+}
+
+#parte1{
+    grid-area: 'parte1';
+    /* min-width: 33%; */
+    width: 22vw;
+    /* border: solid 3px red; */
+
+    background-image: url('../../../public/imagens/boloPote.jpg');
+    
+}
+#parte2{
+    grid-area: 'parte2';
+    /* min-width: 33%; */
+    width: 23vw;
+    /* border: solid 3px red; */
+    background-image: url('../../../public/imagens/BoloFesta.jpg');
+    
+
+}
+#parte3{
+    grid-area: 'parte3';
+    /* min-width: 33%; */
+    width: 22vw;
+    /* border: solid 3px red; */
+    background-image: url('../../../public/imagens/brownie.jpg');
+
+}

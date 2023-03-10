@@ -1,0 +1,132 @@
+#corpoForms {
+       
+    /* background-color: rgba(161, 253, 222, 0.254); */
+    /* border: solid 2px blue;  */
+    /* max-height: 600px; */
+    
+    /* display: inline-grid; */
+    display: grid;
+
+    grid-template-areas: 
+    'lateralEsquerda lateralDireita';
+    /* gap: 1%; */
+    
+
+}
+
+#corpoForms div{
+    display: inline-block;
+}
+
+
+
+
+#latealEsquerda{
+    /* height: 500px; */
+    width: 45vw;
+    /* border: solid 2px red; */
+    background-image: url('../../../public/imagens/pascoa.jpg');
+
+
+    grid-area: 'latealEsquerda';
+}
+
+#destaquePag{
+    border: solid 2px red;
+    margin-top: 20vh;
+
+}
+
+
+#latealDireita{
+    /* min-height: 500px; */
+    width: 20vw;
+
+    /* padding: 5px; */
+    border-radius: 20px;
+
+    /* border: solid 2px red; */
+    background-color: #09efccda;
+    /* background-image: url('../../../public/imagens/pascoa.jpg'); */
+    /* transform: scaleY(-1); */
+    /* transform: scaleX(-1); */
+    background-size: auto;
+    background-repeat: round;
+    grid-area: 'latealDireita';
+
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px rgba(184, 174, 183, 0.74);
+
+
+}
+
+/* section{
+    border: solid 1px royalblue;
+    border-radius: 20px;} */
+
+form{
+    /* border: solid 2px red; */
+    /* border-radius: 20px; */
+    padding: 5px;
+}
+
+/* form p{
+    text-align: left;
+    font-weight: bold;
+    
+    margin-left: 2vw;
+    margin-bottom: 1%;
+
+} */
+
+
+/* INPUT */
+
+.Inputar{
+    height: 4vh;
+    width: 80%;
+    font-size: 1em;
+    /* border: solid 2px green; */
+    border-radius: 10px;
+
+    margin-top: 15px;
+    border: none;
+    
+}
+
+#descricao{
+    min-height: 4vh;
+    max-height: 10vh;
+    height: 6vh;
+    font-size: 1.3em;
+
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 50%;
+}
+
+/* FIM INPUT */
+
+/* BOTAO */
+#botaoEnviar{
+
+    display: flex;
+    /* position: relative; */
+    border-radius: 10px;
+    background-color: rgba(22, 251, 175, 0.906);
+
+
+    font-size: 1.1em;
+    margin-top: 2%;
+    margin-left: 3vw;
+
+    height: 4vh;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+}
+/* FIM BOTAO */

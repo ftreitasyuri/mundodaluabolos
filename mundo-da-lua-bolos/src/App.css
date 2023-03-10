@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+#containerPrincipal{
+  max-width: 70vw;
+  /* max-height: 500px; */
+  margin: 0 auto;
+
+  display: grid;
+
+}
